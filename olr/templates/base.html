@@ -6,6 +6,7 @@
 <title>Olr music | Official Website</title>
 <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  	<link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.css' %}"/>
  	<!-- boostrap -->
 
@@ -55,7 +56,7 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right" >
-                  <li class="active"><a class="navButtons" href="/">Home</a></li>
+                  <li class="active"><a class="navButtons" href="#home">Home</a></li>
                  <li><a class="navButtons" href="#about">About</a></li>
                  <li><a class="navButtons" href="#playlist">Playlist</a></li>
                  <li><a class="navButtons" href="#album">Albums</a></li>
@@ -265,18 +266,28 @@
 
 
 <!--Contact Starts-->
-<div id="contact" class="spacer">
-<div class="contactform center">
-<h3><span class="glyphicon glyphicon-envelope"></span> Contact</h3>
-  <div class="row">      
-      <div class="col-sm-6 col-sm-offset-3 ">
-      <h4>Get in touch or<br><b>Just say Hello!</b></h4>
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Email">
-        <textarea rows="5" placeholder="Message"></textarea>
-        <button class="btn btn-warning bgcolor">Send</button>
-      </div>
-  </div>
+<!--<div id="contact" class="spacer">-->
+<!--<div class="contactform center">-->
+    <div class="contactContainer">
+        <h3 class="contact"><span class="glyphicon glyphicon-envelope"></span> Contact: </h3>
+
+        <div class="contactLinks">
+            <a href="https://www.facebook.com/oldrks"><i class="fa fa-facebook-square" style="font-size:100px; color:white"></i></a>
+
+            <a href="https://soundcloud.com/olr_prod"><i class="fa fa-soundcloud" style="font-size:100px; color:white"></i></a>
+
+        </div>
+    </div>
+  <!--<div class="row">-->
+      <!--&lt;!&ndash;<div class="col-sm-6 col-sm-offset-3 ">&ndash;&gt;-->
+      <!--&lt;!&ndash;<h4>Get in touch or<br><b>Just say Hello!</b></h4>&ndash;&gt;-->
+        <!--&lt;!&ndash;<input type="text" placeholder="Name">&ndash;&gt;-->
+        <!--&lt;!&ndash;<input type="text" placeholder="Email">&ndash;&gt;-->
+        <!--&lt;!&ndash;<textarea rows="5" placeholder="Message"></textarea>&ndash;&gt;-->
+        <!--&lt;!&ndash;<button class="btn btn-warning bgcolor">Send</button>&ndash;&gt;-->
+
+      <!--</div>-->
+<!--</div>-->
 
 
 <!-- map -->
@@ -302,7 +313,7 @@
 <!-- Footer Starts -->
 <div id="footer">
 <div class="container">
-Copyright 2014 DJ KRANKS.
+Copyright 2017 Zoran Pecic.
 </div>
 </div>
 <!-- # Footer Ends -->

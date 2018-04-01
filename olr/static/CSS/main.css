@@ -16,3 +16,26 @@
 .marginZero {
     margin: 0 !important;
     }
+.contact {
+    margin: 0 !important;
+    height: 200px !important;
+    display: flex;
+    align-items: center;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contactLinks {
+    display:flex;
+    flex-direction: row;
+    justify-contact: space-around;
+}
+
+.contactLinks i {
+    margin: 30px;
+}
