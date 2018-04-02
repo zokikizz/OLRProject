@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Olr music | Official Website</title>
+<title>OLR</title>
 <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="{% static 'assets/animate.css' %}">
 	<link rel="stylesheet" href="{% static 'assets/style.css' %}">
     <link rel="stylesheet" href="{% static 'CSS/main.css'%}">
-
+    <link rel="icon"
+      type="image/jpg"
+      href="{% static 'images/logo.jpg'%}">
 	
 
 </head>
@@ -123,7 +125,7 @@
 <div class="col-lg-4 col-sm-4  col-xs-12">
 <img src="{% static 'images/about.jpg' %}" class="img-responsive" alt="about"/>
 </div>
-<div class="col-lg-5 col-sm-8  col-xs-12">
+<div class="col-lg-8 col-sm-8  col-xs-12">
 <p>We serve our clients through a number of services, including effective web design, web application development, print design, online marketing and brand development. We serve our clients through a number of services, including effective webh5 design, web application development, print design, online marketing and brand development.</p>
 <blockquote>We serve our clients through a number of services, including effective web design, web application development, print design, online marketing and brand development.</blockquote>
 </div>
@@ -155,23 +157,30 @@
 
 <!-- latest release starts-->
 <div id="album" class="releases spacer">
-<h3><span class="glyphicon glyphicon-music"></span> Album Releases</h3>
-<div class="row">
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/3.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+<h3><span class="glyphicon glyphicon-music"></span> Releases</h3>
+<div class="albumsContainer">
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/3.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'images/Albums/album1_frontcover.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Nemir</h5><a href="https://www.youtube.com/watch?v=vXChRnseTPs" class="listen" data-toggle="modal" data-target=""><span class="glyphicon glyphicon-headphones"></span> Listen album</a></div></div></div>-->
+    <div class="col-sm-3 col-xs-12 videoRelease"><div class=""><h4>Olr's album Nemir (Take it or leave it records)</h4><iframe class="col-sm-12 col-xs-12 albumsVideo" src="https://www.youtube.com/embed/BMC-IQf0Ovk?rel=0&amp;showinfo=0" frameborder="0"></iframe></div></div>
+    <div class="col-sm-3 col-xs-12 videoRelease"><div class=""><h4>Celebration the release of OLR's album Nemir:</h4><iframe class="col-sm-12 col-xs-12 albumsVideo" src="https://www.youtube.com/embed/LcfVbaHfoeM?rel=0&amp;showinfo=0" frameborder="0"></iframe></div></div>
+    <div class="col-sm-3 col-xs-12 videoRelease"><div class=""><h4>Vikki Elle - "Couldnt've Been" (Produced by OLR):</h4><iframe class="col-sm-12 col-xs-12 albumsVideo" src="https://www.youtube.com/embed/l7wOIi7zpjQ?rel=0&amp;showinfo=0" frameborder="0"></iframe></div></div>
+    <div class="col-sm-3 col-xs-12 videoRelease"><div class=""><h4>Pawz One ft. OLR & Katarina Jovanović - Get some:</h4><iframe class="col-sm-12 col-xs-12 albumsVideo" src="https://www.youtube.com/embed/PoPabxvV0og?rel=0&amp;showinfo=0" frameborder="0"></iframe></div></div>
+    <div class="col-sm-3 col-xs-12 videoRelease"><div class=""><h4>BIG SHUG - My Own (Produced by OLR):</h4><iframe class="col-sm-12 col-xs-12 albumsVideo" src="https://www.youtube.com/embed/aGe6N1HGYbk?rel=0&amp;showinfo=0" frameborder="0"></iframe></div></div>
+    <div class="col-sm-3 col-xs-12 videoRelease"><div class=""><h4>Buhay Cali - Always (Production by OLR):</h4><iframe class="col-sm-12 col-xs-12 albumsVideo" src="https://www.youtube.com/embed/HO8q7Eh-wbk?rel=0&amp;showinfo=0" frameborder="0"></iframe></div></div>
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/1.jpg' %}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+    <!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/1.jpg' %}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/2.jpg' %}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/2.jpg' %}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/4.jpg' %}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/4.jpg' %}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/4.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/4.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/2.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/2.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/3.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/3.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 
-	<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/1.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>
+	<!--<div class="col-sm-3 col-xs-12"><div class="album"><img src="{% static 'assets/images/1.jpg'%}" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Crazy Freso</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-headphones"></span> Listen Song</a></div></div></div>-->
 </div>
 </div>
 <!-- latest release ends-->
@@ -277,7 +286,6 @@
             <a href="https://www.facebook.com/oldrks"><i class="fa fa-facebook-square" style="font-size:100px; color:white"></i></a>
 
             <a href="https://soundcloud.com/olr_prod"><i class="fa fa-soundcloud" style="font-size:100px; color:white"></i></a>
-            <a href="https://www.youtube.com/channel/UCh8FeXjZyTZpb_qOXKZR8kg"><i class="fa fa-youtube-play" style="font-size:100px; color:white"></i></a>
 
         </div>
     </div>
